@@ -15,6 +15,7 @@ function CreateArea(props) {
     function expand() {
         setExpanded(true)
     }
+
     function handleChange(e) {
         const { name, value } = e.target;
 
